@@ -1,0 +1,5 @@
+$env:USERS = "ændrebruger=ændrekode foo=bar"
+$env:REALM = "127.0.0.1"
+$env:UDP_PORT = 3478
+cd C:\Users\admin\Desktop\turn
+.\simple-turn-windows-amd64
